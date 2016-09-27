@@ -67,7 +67,7 @@ set autoindent
 " set showmatch
 
 " 语法折叠
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za
 
