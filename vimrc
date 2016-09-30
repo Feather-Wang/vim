@@ -122,23 +122,23 @@ nmap <F12>  :call RunShell("Generate tags", "ctags -R --sort=yes --fields=+iaS -
 
 """"""""""""""""""""""""""""" omnicppcomplete 配置
 set completeopt=longest,menu
-if !exists("$HOME/.vim/bundle/omnicppcomplete/omnicppcomplete_config.vim")
+if exists("$HOME/.vim/bundle/omnicppcomplete/omnicppcomplete_config.vim")
     source $HOME/.vim/bundle/omnicppcomplete/omnicppcomplete_config.vim
 endif
 """""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""" lookupfile 配置
-if !exists("$HOME/.vim/bundle/lookupfile-master/lookupfile_config.vim")
+if exists("$HOME/.vim/bundle/lookupfile-master/lookupfile_config.vim")
     source $HOME/.vim/bundle/lookupfile-master/lookupfile_config.vim
 endif
 
 
 """""""""""""""""""""""""""""" Buffer-Hint 配置
-if !exists("$HOME/.vim/bundle/Buffer-Hint/Buffer_Hint_config.vim")
+if exists("$HOME/.vim/bundle/Buffer-Hint/Buffer_Hint_config.vim")
     source $HOME/.vim/bundle/Buffer-Hint/Buffer_Hint_config.vim
 endif
 
 """""""""""""""""""""""""""""" indent_guides 配置
-if !exists("$HOME/.vim/bundle/indentLine-master/indentLine_config.vim")
+if exists("$HOME/.vim/bundle/indentLine-master/indentLine_config.vim")
     source $HOME/.vim/bundle/indentLine-master/indentLine_config.vim
 endif
