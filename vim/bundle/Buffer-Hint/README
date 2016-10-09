@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5272
+
+With this plugin, you can browse all buffers in a popup side window. In addition, this plugin provides a "hint key" for each buffer, just like what Vimperator/Vimium/VimFx does. Therefore, you can switch among buffers quickly with a single key stroke in the best case.
+
+Project Home Page: https://github.com/bsdelf/bufferhint
