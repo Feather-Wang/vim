@@ -26,6 +26,8 @@ set fenc=utf-8
 " 用来显示的编码格式，不管最后的文件是什么编码格式的，vim都会将其转换为当前系统编码来进行处理，这样才能在当前系统里面正确地显示。
 set enc=utf-8
 
+set wildmode=list:longest,full
+
 " 突出显示当前行
 set cursorline
 "set cursorcolumn
