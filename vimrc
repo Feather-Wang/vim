@@ -15,6 +15,8 @@ set nocompatible
 syntax on
 " 设置配色方案
 color evening
+" 默认只支持8色，t_Co=256可以设置后256色的，如果终端不支持256色，该项将不起作用
+set t_Co=256
 
 highlight Pmenu     ctermbg=white  ctermfg=black
 highlight PmenuSel  ctermbg=lightgreen  ctermfg=black
