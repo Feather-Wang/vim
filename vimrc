@@ -17,6 +17,8 @@ syntax on
 color evening
 " 默认只支持8色，t_Co=256可以设置后256色的，如果终端不支持256色，该项将不起作用
 set t_Co=256
+"设置字体为Consolas，字体大小为h14，如果字体是多个单词，可以用'_'代替单词间的空格
+set guifont=Consolas:h14
 
 highlight Pmenu     ctermbg=white  ctermfg=black
 highlight PmenuSel  ctermbg=lightgreen  ctermfg=black
